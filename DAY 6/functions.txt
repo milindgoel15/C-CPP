@@ -1,0 +1,29 @@
+returntype functionName (parameter lists) {  function is declared in this line
+   body of the function
+}
+
+
+return type for returning anything else use void if we dont want to return anything
+
+=====================
+
+functions is of 2 types:
+
+1. standard library functions  = from header files such as printf, scanf
+
+2. user defined functions  = declared by users such as max function performed in maxfunction.cpp
+
+=====================
+
+pointers:
+
+1. address in c: scanf("%d", &var)
+2. address is declared using &
+3. address changes whenever it compiles again
+
+to overcome this,
+
+int    *ip;    /* pointer to an integer */
+double *dp;    /* pointer to a double */
+float  *fp;    /* pointer to a float */
+char   *ch     /* pointer to a character */
